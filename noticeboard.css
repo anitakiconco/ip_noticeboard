@@ -1,0 +1,30 @@
+.center{
+    border:3mm, wavy, red;
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2mm 3mm 2mm;
+    cursor: move;
+}
+
+.pagetwo{
+    border:3mm, wavy, red;
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2mm 3mm 2mm;
+    cursor: move;
+}
+/*#pwd{
+
+}
+
+#item{
+
+}
+
+#quantity{
+
+}
+
+#cost{
+
+}*/

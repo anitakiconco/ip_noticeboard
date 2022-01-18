@@ -1,10 +1,10 @@
 <?php
 require_once ('db.php');
 // Initialize the session
-session_start();
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    
+// session_start();
+    @$username = $_POST['username'];
+    @$password = $_POST['password'];
+   
     if(!empty($_POST['username']) && !empty($_POST['password'])){
         $sql = "SELECT id, username, password FROM users WHERE username = ?";
 
@@ -39,4 +39,5 @@ session_start();
     }else{
         echo "please enter the user name and password";
     }
+
 ?>
